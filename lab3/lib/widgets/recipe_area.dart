@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lab2/widgets/recipe_detail.dart';
-import 'package:lab2/widgets/recipe_list.dart';
+import 'package:lab3/widgets/recipe_detail.dart';
+import 'package:lab3/widgets/recipe_list.dart';
 import 'package:provider/provider.dart';
 import '../ui_controller.dart';
 

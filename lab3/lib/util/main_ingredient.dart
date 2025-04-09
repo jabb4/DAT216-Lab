@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:lab2/constants/assets.dart';
+import 'package:lab3/constants/assets.dart';
 
 class MainIngredient {
   static const showAll = 'Visa alla';

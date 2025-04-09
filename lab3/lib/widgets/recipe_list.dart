@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lab2/widgets/recipe_list_item.dart';
+import 'package:lab3/widgets/recipe_list_item.dart';
 import 'package:provider/provider.dart';
 import '../model/recipe_database/recipe_handler.dart';
 import '../ui_controller.dart';

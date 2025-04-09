@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:lab2/model/recipe_database/recipe_handler.dart';
-import 'package:lab2/pages/main_view.dart';
-import 'package:lab2/ui_controller.dart';
+import 'package:lab3/model/recipe_database/recipe_handler.dart';
+import 'package:lab3/pages/main_view.dart';
+import 'package:lab3/ui_controller.dart';
+import 'package:lab3/app_theme.dart';
 import 'package:provider/provider.dart';
+import 'package:lab3/app_theme.dart';
 
 void main() {
   runApp(
@@ -26,7 +28,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Receptsök',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: AppTheme.colorScheme,
+        textTheme: AppTheme.textTheme,
+
       ),
       home: MainView(),
     );
