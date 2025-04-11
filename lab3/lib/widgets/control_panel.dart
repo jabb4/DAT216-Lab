@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:lab3/widgets/logo.dart';
 import 'package:lab3/widgets/price_control.dart';
 import 'package:lab3/widgets/time_control.dart';
 
@@ -17,8 +18,7 @@ class ControlPanel extends StatelessWidget {
       child: Column(
         children:
         [
-          Text("SÖK RECEPT"),
-          Text("Galna recept"),
+          Logo(),
           SizedBox(height: 16.0),
           IngredientControl(),
           KitchenControl(),
